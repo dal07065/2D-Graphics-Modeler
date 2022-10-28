@@ -1,8 +1,14 @@
 # Team Unicorn Group Project CS1C
+### 2D Paint Program made with C++, Qt Creator, QPainter rendering library
 (Original Project -> https://github.com/felix-murray/2D-Graphics-Modeler)
 ## Overview
-You are to create software for modeling basic 2D graphics objects. The modeler will demonstrate the capabilities of 2D Graphics Modeler Inc.’s graphics engine. Potential customers will be looking for a 2D graphics rendering library which can be integrated into their own software suite.
+Create software for modeling basic 2D graphics objects that will demonstrate the capabilities of 2D Graphics Modeler Inc.’s graphics engine. Potential customers will be looking for a 2D graphics rendering library which can be integrated into their own software suite.
 
+![2dgraphicsModeler_ContactUs](https://user-images.githubusercontent.com/33437092/198490629-7295fa57-0385-4a25-bb5b-cedeb0732054.png)
+![2dgraphicsModeler_PolyLine](https://user-images.githubusercontent.com/33437092/198490681-f6f2bdcb-72ec-4c6d-965e-7b178ea6d5e3.png)
+![2dgraphicsModeler_Shapes](https://user-images.githubusercontent.com/33437092/198490726-841556e2-d7f0-49c6-bde9-7615805fed1d.png)
+
+## Requirements
 You must use inheritance, composition, exception handlers, a virtual function, and at least two overloaded operators. At least one class should use templates. At least one class must contain a pointer (a copy constructor needs to be written and tested). Highlight the above in your code.
 
 Use the Qt QPainter low-level graphics rendering library to draw shapes on a QWidget rendering area (refer to the Qt Basic Drawing Example documentation and source code as an example). Implement a Shape abstract base class which contains a QPainter data member via an aggregation or composition relationship. Shape has pure virtual functions draw, move, perimeter & area. Types of Shapes: Line, Polyline, Polygon, Rectangle, Ellipse, Text. Shape Properties: Shape Dimensions, Pen Color, Pen Width, Pen Style, Pen Cap Style, Pen Join Style, Brush Color, Brush Style. Text Properties: Text String, Text Color, Text Alignment, Text Point Size, Text Font Family, Text Font Style, Text Font Weight (refer to shape_input_file_specs.txt). Line, Polyline, Polygon, Rectangle, Ellipse, Text Classes will override the virtual interface of base class Shape (i.e. interface inheritance).
